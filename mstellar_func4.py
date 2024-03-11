@@ -146,6 +146,6 @@ print(data_with_new_column)
 formats = ['%.6f', '%g', '%d', '%.6f', '%g', '%d', '%d', '%g', '%.6f', '%.6f', '%.6f', '%.6f']
 
 # Save the modified data back to the file
-"""modified_data_file = f"mfs_veff_compare1_newf_{upper_cut}.dat"
-np.savetxt(modified_data_file, data_with_new_column, fmt=formats)"""
+modified_data_file = f"mfs_veff_compare1_newf_{upper_cut}.dat"
+np.savetxt(modified_data_file, data_with_new_column, fmt=formats)
 
